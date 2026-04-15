@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      screens: {
+        'xs': '420px',
+      },
       fontFamily: {
         sans: ['"Almarai"', 'sans-serif'],
         serif: ['"Instrument Serif"', 'serif'],
