@@ -85,6 +85,13 @@ export default function Index() {
       {/* HERO */}
       <section className="relative h-[100svh] min-h-[500px] overflow-hidden">
         <div className="hero-animated-bg hero-particles absolute inset-0" />
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/brand/logo.svg"
+            alt="Brand Background"
+            className="object-cover opacity-[0.06] blur-2xl scale-150 w-full h-full"
+          />
+        </div>
         <video
           src={HERO_VIDEO}
           autoPlay
@@ -98,7 +105,16 @@ export default function Index() {
         <div className="noise-overlay absolute inset-0 opacity-[0.5] mix-blend-overlay pointer-events-none z-[2]" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/20 to-background z-[3]" />
 
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6">
+        <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6 pt-20">
+          <div className="flex flex-col items-center justify-center gap-6 mb-6">
+            <img
+              src="/brand/logo.svg"
+              alt="AI Student Hub"
+              width={120}
+              height={120}
+              className="drop-shadow-[0_0_40px_rgba(139,92,246,0.6)] animate-pulse glow-logo"
+            />
+          </div>
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}

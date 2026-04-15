@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- AI Text Logo -->
+  <text x="256" y="320" 
+        font-family="Arial, sans-serif" 
+        font-size="220" 
+        font-weight="800" 
+        fill="url(#logoGradient)" 
+        text-anchor="middle"
+        filter="url(#glow)">
+    AI
+  </text>
+  
+  <!-- Subtle background glow effect -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#logoGradient)" stroke-width="2" opacity="0.3" />
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#logoGradient)" stroke-width="1" opacity="0.2" />
+</svg>

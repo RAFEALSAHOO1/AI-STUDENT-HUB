@@ -46,7 +46,7 @@ export const AI_TOOLS = [
   { id: 49, name: "Sourcery", category: "Coding", description: "AI code refactoring assistant", priceType: "Free" as const, studentOffer: "Free for open source", link: "https://sourcery.ai", tags: ["coding", "refactoring"], logo: "🧹" },
   { id: 52, name: "Wix AI", category: "Coding", description: "AI website builder", priceType: "Student Discount" as const, studentOffer: "Student discount available", link: "https://wix.com", tags: ["web", "builder"], logo: "🌍" },
   { id: 63, name: "Bolt.new", category: "Coding", description: "AI full-stack web app builder in browser", priceType: "Freemium" as const, studentOffer: "Free tier available", link: "https://bolt.new", tags: ["coding", "fullstack"], logo: "⚡" },
-  { id: 64, name: "Lovable", category: "Coding", description: "AI app builder - describe & deploy apps", priceType: "Freemium" as const, studentOffer: "Free starter plan", link: "https://lovable.dev", tags: ["coding", "nocode"], logo: "💜" },
+
   { id: 65, name: "Codespace", category: "Coding", description: "GitHub cloud dev environments", priceType: "Free" as const, studentOffer: "Free with Student Pack (90hrs/mo)", link: "https://github.com/codespaces", tags: ["coding", "cloud"], logo: "☁️" },
   { id: 66, name: "JetBrains IDEs", category: "Coding", description: "Professional IDEs with AI assistant", priceType: "Student Discount" as const, studentOffer: "Free for students (all IDEs)", link: "https://jetbrains.com/student", tags: ["coding", "ide"], logo: "🧊" },
   { id: 67, name: "Pieces for Developers", category: "Coding", description: "AI code snippet manager & copilot", priceType: "Free" as const, studentOffer: "Free for all", link: "https://pieces.app", tags: ["coding", "snippets"], logo: "🧩" },
